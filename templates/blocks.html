@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <link rel="stylesheet" href="blocks_styles.css" />
+  </head>
+
+  <body>
+    <section class="projects">
+        <div class="grid-item" class="cell" style="grid-area: p1">
+            <span>
+                <img width=75% height=auto src="resources/thunderbolt.png"/>
+            </span>
+        </div>
+        <div class="cell" style="grid-area: d1">
+          <br />
+          <br />
+          <strong>{{ cryptocurrency }}</strong> <br />
+          Energy consumption: {{ energy_con }} kWh
+        </div>
+
+        <div class="grid-item" class="cell" style="grid-area: p2">
+            <span>
+                <img width=50% height=auto src="resources/waste.png"/>
+            </span>
+        </div>
+        <div class="cell" style="grid-area: d2">
+            <br />
+            <br />
+            <strong>{{ cryptocurrency }}</strong> <br />
+            Energy waste: {{ energy_waste }} kWh
+        </div>
+
+        <div class="grid-item" class="cell" style="grid-area: p3">
+            <span>
+                <img />
+            </span>
+        </div>
+        <div class="cell" style="grid-area: d3">
+            <br />
+            <br />
+            <strong>{{ cryptocurrency }}</strong> <br />
+            Energy waste: {{ energy_waste }} kWh
+        </div>
+  </body>
+</html>
